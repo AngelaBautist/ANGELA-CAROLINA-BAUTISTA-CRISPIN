@@ -1,0 +1,246 @@
+
+
+<html>
+<head>
+  <style>
+    border{
+      border-radius:100px;
+      
+    }
+    body{
+      background-color :lavender;
+    }
+    h1 {
+    
+    font-family: 'franklin Gothic Medium';
+    }
+     h1:hover{
+    color:tomato;
+    text-decoration:underline;
+    text-decoration-style:wavy;
+  
+    }  
+
+
+    h2{color:black;
+   
+    }
+    h2:hover{
+      text-decoration:underline;
+    text-decoration-style:wavy;
+    color:tomato;
+    
+    }
+    
+   p {
+   font-family: 'Gill Sans MT' 
+   
+   border: 3x solid blue;
+   background-color:lavender;
+   padding: 5px;
+   border-radius: 6px;
+  
+  }
+  p:hover{
+    text-decoration:underline;
+    color:purple;
+  }
+  ol{
+    color:black;
+    border:6px solid lavender;
+    background-color:lavender;
+    padding:5px;
+    border-radius:6px;
+  }
+  ol:hover{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS'
+    color: white;
+    border: 3x solid blue;
+    background-color:lavender;
+    padding: 5px;
+    border-radius: 6px;
+    
+  }
+    
+  }
+    ul{color:; black;
+    border:6px;solid blue;
+    background-color:lavender;
+    padding:5px;
+    border-radius:6px;}
+    
+    img{
+      border-radius:60px;
+     
+     }
+    img:hover{
+    width: 70px
+    }
+    input{
+     border :1px solid green;
+    color:green;
+    }
+    input focus{
+    border:1px dashed red;
+    color:green;
+  }
+    form{
+     border:2px solid;
+  
+  }
+  button{
+  background-color:purple ;
+  color:white;
+  }
+  button:hover{
+  background-color:white;
+  color:purple;
+  border:2px solid purple;
+  }
+
+   
+  </style>
+  </head>
+  <body>
+    <a href="#CONCEPTOS BASICOS">
+    <img src="img/12.jpg" width="70px">
+    </a>
+    <a href="#ATRIBUTOS">
+    <img src=" img/14.jpg" width="70px">
+    </a>
+   
+
+     <a href="#LISTAS">
+     <img src="img/16.jpg" width="70px">
+     <a href="#VINCULOS">
+     <img src="img/18.jpg" width="70 px"
+     height="70px">
+     </a>
+     
+     <a href="#ELEMENTO BUTTON">
+     <img src="img/46.jpg" width="70px"
+     height="70px">
+     </a>
+     
+     
+     
+
+
+    
+   
+     <h1><center>INTRODUCCION A HTML
+     </h1></center>
+    
+     <div id="CONCEPTOS BASICOS"></div>
+     <h2><strong>CONCEPTOS BASICOS DE HTML</strong></h2>
+     <p>El Lenguaje de Marcado de Hipertexto (HTML) es el codigo que se utiliza para estructurar y desplegar una pagina web y sus contenidos. Por ejemplo, sus contenidos podrian ser parrafos, una lista con viñetas, o imagenes y tablas de datos. Como lo sugiere el titulo.
+     </p>
+     <p><strong>HTML:</strong>No es un lenguaje de programacion; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usaras para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un vinculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc. Por ejemplo, toma la siguiente línea de contenido:</p>
+   
+   
+   <p>las partes principales del elemento son las siguientes: </p>
+   <ol>
+     <li>
+       <strong>La etiqueta de apertura:</strong>Consiste en el nombre del elemento (en este caso, p), encerrado por parentesis angulares (< >) de apertura y cierre. Establece donde comienza o empieza a tener efecto el elemento —en este caso, dónde es el comienzo del parrafo.
+       <li><strong>La etiqueta de cierre:</strong>Es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento —en este caso donde termina el parrafo 
+       <li><strong>El contenido:</strong>este es el contenido del elemento, que en este caso es sólo texto.
+       <li><strong>El elemento:</strong> La etiqueta de apertura, mas la etiqueta de cierre, mas el contenido equivale al elemento.
+       
+  
+   </ol>
+   <p>Los elementos pueden tambien tener atributos.</p>
+   <div id= "ATRIBUTOS"></div>
+   
+   <h2>ATRIBUTOS</h2>
+   <p>Los atributos contienen informaciom adicional acerca del elemento, la cual no quieres que aparezca en el contenido real del elemento. Aqui class es el nombre del atributo y editor-note el valor del atributo. En este caso, el atributo class permite darle al elemento un nombre identificativo, que se puede utilizar luego para apuntarle al elemento información de estilo y demas cosas.</p>
+   <p>Un atributo debe tener siempre:</p>
+   
+   <ul>
+     <li>Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o mas atributos)
+     <li>El nombre del atributo, seguido por un signo de igual.
+     <li>Comillas de apertura y de cierre, encerrando el valor del atributo.
+      
+   </ul>
+   <p> Los atributos siempre se incluyen en la etiqueta de apertura de un elemento, nunca en la de cierre.</p>
+   
+   
+   <h2>ANIDAR ELEMENTOS</h2>
+   <p> Puedes tambien colocar elementos dentro de otros elementos —esto se llama anidamiento—. Si, por ejemplo, quieres resaltar una palabra del texto (en el ejemplo la palabra «muy»), podemos encerrarla en un elemento "strong", que significa que dicha palabra se debe enfatizar:</p>
+   <p>Los elementos deben abrirse y cerrarse ordenadamente, de forma tal que se encuentren claramente dentro o fuera el uno del otro. Si estos se encuentran solapados, el navegador web tratara de adivinar lo que intentas decirle, pero puede que obtengas resultados inesperados Así que, ¡no lo hagas</p>
+   
+   <h2>ELEMENTOS VACIOS</h2>
+   <p>Algunos elementos no poseen contenido, y son llamados elementos vacios. Toma, por ejemplo, el elemento "img" de nuestro HTML:</p>
+   <p>Posee dos atributos, pero no hay etiqueta de cierre "/img" ni contenido encerrado. Esto es porque un elemento de imagen no encierra contenido al cual afectar. Su proposito es desplegar una imagen en la página HTML, en el lugar en que aparece.</p>
+   <ul>
+     <li><strong>DOCTYPE</strong> El tipo de documento. Es un preambulo requerido. Anteriormente, cuando HTML era joven (cerca de 1991/2), los tipos de documento actuaban como vínculos a un conjunto de reglas que el codigo HTML de la pagina debia seguir para ser considerado bueno, lo que podia significar la verificacion automatica de errores y algunas otras cosas de utilidad. Sin embargo, hoy dia es simplemente un artefacto antiguo que a nadie le importa, pero que debe ser incluido para que todo funcione correctamente. Por ahora, eso es todo lo que necesitas saber.
+     <li><strong>El elemento *html:</strong> Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raiz (root element).
+     <li><strong>El elemento "head":</strong> Este elemento actua como un contenedor de todo aquello que quieres incluir en la pagina HTML que no es contenido visible por los visitantes de la pagina. Incluye cosas como palabras clave (keywords), una descripcion de la pagina que quieres que aparezca en resultados de busquedas, codigo CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc.
+     <li><strong>Meta:</strong>Este elemento establece el juego de caracteres que tu documento usara en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. Basicamente, puede manejar cualquier contenido de texto que puedas incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro.
+     <li><strong> El elemento 'title:</strong> establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la pagina es cargada, y se usa para describir la pagina cuando es añadida a los marcadores o como favorita.
+     <li><strong>El elemento "body"</strong> Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.</ul>
+     <img src="img/67.jpg" width="400">
+
+     <h2>ENCABEZADOS</h2>
+   <p>Los elementos de encabezado permiten especificar que ciertas partes del contenido son encabezados, o subencabezados del contenido. De la misma forma que un libro tiene un título principal, y que a su vez puede tener títulos por cada capítulo individual, y subtítulos dentro de ellos, un documento HTML puede tenerlos también. HTML posee seis niveles de encabezados</p>
+   
+   <h2>PARRAFOS</h2>
+   <p>Como se explicó más arriba, los elementos p> se utilizan para encerrar párrafos de texto; los usarás frecuentemente para el marcado de contenido de texto regular:</p>
+   <div id="LISTAS"></div>
+   <h2>LISTAS</h2>
+    <ul>
+     <li><strong>Las listas desordenadas</strong> Son aquellas en las que el orden de los items no es relevante, como en una lista de compras. Estas son encerradas en un elemento  (unordered list
+     <li><strong>Las listas ordenadas</strong> Son aquellas en las que el orden sí es relevante, como en una receta. Estas son encerradas en un elemento.
+      
+    </ul>
+    <ul>
+    <li><strong>Las listas de definicion</strong> Sirven para hacer un conjunto de elementos con pares concepto-descripción. Es decir, se especificarán varios términos por su nombre y se escribirá una definición para cada uno. Cada elemento es presentado junto con su definición, uno detrás de otro.</li>
+    </ul>
+    <img src="img/56.jpg" width="350px">
+  
+    <p> Cada elemento de la lista se coloca dentro de un elemento </p>
+    <div id="VINCULOS"></div>
+    <h2>VINCULOS</h2>
+    <p>Los vínculos o enlaces son muy importantes —son los que hacen de la web, la web—. Para implementar un vínculo, necesitas usar un vínculo simple — </a> — la a es la abreviatura de la palabra inglesa «anchor» («ancla»). Para convertir algún texto dentro de un parrafo </p>
+    
+    <h2>INSERTAR IMAGENES</h2>
+    <p>Utilizado para insertar una imagen simple en una página web.</p>
+   
+   <img src="img/22.jpg" width="200px">
+   <h2>Resultado</h2>
+   <img src="img/28.jpg" width="200px">
+   <h2>LA ETIQUETA "Style"</h2>
+   <p>La etiqueta "style"es un elemento HTML5 que se utiliza para incluir estilos CSS (Cascading Style Sheets) directamente dentro de un documento HTML</p>
+     <p>Estos estilos, tambien conocidoscomoestilos internos o embebidos, se aplican a los elementos HTML dentro de la pagina, permitiendo personalizar su apariencia y comportamiento visual</p>
+     <p>La etiqueta <strong>style</strong> debe colocarse dentro del elemento (head) del documento HTML, aunque algunos navegadores tambien admiten su uso en el cuerpo del documento</p>
+     <img src="img/32.jpg" width="300" height="200">
+     <div id="ELEMENTO BUTTON"></div>
+     <h2> ELEMENTO BUTTON</h2>
+     <p>Es el elemento crea botones marcadores. La etiqueta de HTML (button)representa un elemento cliqueable de tipo boton que puede ser utilizado en formularios o en cualquier parte de la página que necesite un boton estandar y simple de aplicar.</p>
+     <h2>EJEMPLO</h2>
+      <button>
+       BOTON
+      </button>
+     
+     <h2>ELEMENTO FORM</h2>
+     <p>El elemento <strong>form</strong>
+     representa una secion de un documento que contiene controles interactivos que permiten a un usuario enviar informacion a un servidor web.</p>
+      
+    <form>
+    Nombre:
+    <input tipe="text name"><br>
+    Apellido:
+    <input type=text ></br>
+    </input>
+    
+  </form>
+  
+   
+  
+
+      
+      
+      
+ 
+  </body>
+  </html>
