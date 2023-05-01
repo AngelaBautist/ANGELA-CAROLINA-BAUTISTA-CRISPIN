@@ -1,0 +1,65 @@
+div {
+  display: flex 50px;
+
+}
+
+body {
+  background-image: url("img/947.jpg");
+  background-repeat: si-repeat;
+}
+
+table {
+  width: 70px;
+
+}
+
+img {
+  height: 220px;
+  width: 220px;
+  margin: 38px;
+
+}
+
+img:hover {
+  transform: scale(1.2)
+}
+#btn1{background:#000000; 
+border:0px solid black;
+}
+#btn2{background:#800080;
+border:0px;
+}
+#btn3{background:#a52a2a;
+border:1px solid black;
+}
+
+
+button:hover {
+  background-color: white;
+  color: purple;
+  border: 2px solid purple;
+}
+
+h1 {
+color: black;
+font-family: 'Arial','Trebuchet MS', 'Calibri','Helvetica';
+}
+
+h1:hover {
+   color:purple;
+  text-decoration: line;
+}
+th{
+  color:black;
+}
+th:hover{
+  text-decoration:line;
+  color:purple;
+}
+
+li{ 
+  color:black;
+}
+li:hover{
+  text-decoration:line;
+  color:purple;}
